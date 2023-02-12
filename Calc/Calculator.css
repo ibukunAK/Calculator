@@ -1,0 +1,78 @@
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    height: 450px;
+    background-color: whitesmoke;
+}
+.container{
+    /* height: 600px; */
+    /* display: flex; */
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 200px 0 400px;
+}
+
+.calculator{
+    background-color: rgb(243, 214, 219);
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px rgb(238, 89, 111),;
+}
+
+input{
+    grid-column: span 4 ;
+    height: 50px;
+    width: 93%;
+    background-color: rgb(247, 231, 233);
+    box-shadow: inset 5px 5px 12px #ffffff;
+                inset: 5px 5px 12px rgba(0, 0, 0, 1);
+    border: none;  
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 40px;
+    text-align: end;
+    
+} 
+
+
+/* .copyright{
+    border: none;
+    margin-left: 50px;
+    box-shadow: none;
+    background-color: transparent;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+}   */
+.names {
+    background:transparent;
+    margin-left: 220px;
+    cursor: pointer;
+    /* float: right; */
+}
+
+button{
+    height: 50px;
+    width: 70px;
+    border-radius: 500px;
+    padding:2px;
+    margin: 10px;
+    border: none;
+    font-weight:800;
+    box-shadow: inset 5px 5px 12px rgb(236, 181, 181);
+}
+.calculator :hover{
+    background-color: pink;
+}
+
+.equal{
+    width: 150px;
+    background-color: rgba(240, 137, 154, 1);
+    box-shadow: inset 5px 4px 12px pink;
+    font-weight:900;
+}
